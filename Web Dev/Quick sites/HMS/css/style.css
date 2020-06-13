@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(315deg, #370000, #370000, #390303, #795454);
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.container .header h2 {
+    color: #D2D2D2;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.elora-header {
+    color: #E35D5D;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.container p .sign-in {
+    font-size: 30px;
+}

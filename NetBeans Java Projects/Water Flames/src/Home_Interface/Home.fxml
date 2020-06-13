@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="397.0" prefWidth="731.0" style="-fx-background-color: #354350;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <AnchorPane fx:id="an_signIn" prefHeight="406.0" prefWidth="741.0">
+         <children>
+            <Pane layoutX="498.0" layoutY="1.0" prefHeight="406.0" prefWidth="239.0">
+               <children>
+                  <Label layoutX="58.0" layoutY="152.0" prefHeight="25.0" prefWidth="46.0" text="Sign in" textFill="#b5b5b5">
+                     <font>
+                        <Font name="Segoe UI" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="52.0" layoutY="189.0" opacity="0.55" promptText="Username" />
+                  <PasswordField layoutX="52.0" layoutY="223.0" opacity="0.65" promptText="Password" />
+                  <ImageView fitHeight="25.0" fitWidth="30.0" layoutX="169.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Water%20Flame%20Images/icons8_Login_20px.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane layoutX="243.0" layoutY="1.0" opacity="0.82" prefHeight="406.0" prefWidth="255.0">
+               <children>
+                  <Label layoutX="28.0" layoutY="360.0" prefHeight="46.0" prefWidth="213.0" text="We are happy for your experience&#10;             on our app." textFill="#62dae1fc">
+                     <font>
+                        <Font name="Segoe Print" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="6.0" layoutY="4.0" prefHeight="399.0" prefWidth="239.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="463.0" fitWidth="755.0" layoutX="-14.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Water%20Flame%20Images/30.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutY="7.0" prefHeight="399.0" prefWidth="239.0">
+         <children>
+            <Label layoutX="32.0" layoutY="68.0" prefHeight="46.0" prefWidth="88.0" text="Water " textFill="#4e45b2">
+               <font>
+                  <Font name="Segoe Print" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="65.0" fitWidth="139.0" layoutX="87.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Water%20Flame%20Images/icons8_Fire_100px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="118.0" layoutY="68.0" prefHeight="46.0" prefWidth="88.0" text="Flames" textFill="#d7401e">
+               <font>
+                  <Font name="Segoe Print" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_signIn" layoutX="89.0" layoutY="132.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="58.0" text="Sign In" />
+            <Button fx:id="btn_signUp" layoutX="89.0" layoutY="175.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="58.0" text="Sign Up" />
+         </children>
+      </Pane>
+      <AnchorPane fx:id="an_signUp" layoutX="463.0" prefHeight="407.0" prefWidth="278.0">
+         <children>
+            <Label layoutX="51.0" layoutY="47.0" prefHeight="25.0" prefWidth="58.0" text="Sign Up" textFill="#b5b5b5">
+               <font>
+                  <Font name="Segoe UI" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="51.0" layoutY="108.0" opacity="0.59" prefHeight="25.0" prefWidth="169.0" promptText="First Name" />
+            <TextField layoutX="51.0" layoutY="142.0" opacity="0.59" prefHeight="25.0" prefWidth="169.0" promptText="Last Name" />
+            <TextField layoutX="51.0" layoutY="177.0" opacity="0.59" prefHeight="25.0" prefWidth="213.0" promptText="Mail" />
+            <ImageView fitHeight="25.0" fitWidth="34.0" layoutX="220.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Water%20Flame%20Images/icons8_Next_page_20px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="51.0" layoutY="253.0" prefHeight="25.0" prefWidth="149.0" text="Already a member? Sign in." textFill="#b5b5b5">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

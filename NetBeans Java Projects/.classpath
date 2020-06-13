@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BruteCracker/src"/>
+	<classpathentry kind="src" path="Calculator/src"/>
+	<classpathentry kind="src" path="FAVOR re-edit/src"/>
+	<classpathentry kind="src" path="FAVOR/src"/>
+	<classpathentry kind="src" path="Graph Analyzer/src"/>
+	<classpathentry kind="src" path="GUIFormExamples/src"/>
+	<classpathentry kind="src" path="JavaApplication1/src"/>
+	<classpathentry kind="src" path="Jprac/src"/>
+	<classpathentry kind="src" path="MyProgram/src"/>
+	<classpathentry kind="src" path="Test/src"/>
+	<classpathentry kind="src" path="Yeabs/src"/>
+	<classpathentry kind="lib" path="Calculator/dist/Calculator.jar"/>
+	<classpathentry kind="output" path="BruteCracker/build/classes"/>
+</classpath>

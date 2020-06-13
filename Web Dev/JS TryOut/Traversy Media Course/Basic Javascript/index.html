@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Learning Javascript</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="heading">Learning Javascript</h1>
+        <p>With Brad Traversy</p>
+    </div>
+
+    <div class="container">
+        <!-- <button onmouseout="clearDate();" onmouseover="showDate();">Show Date</button>
+        <h1 id="time"></h1> -->
+    </div>
+    
+    <form action="something.php" method="post" name="myForm" onsubmit="validateForm();">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" id="firstName" />
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" id="lastName">
+        </div>
+        <br>
+        <!-- <div>
+            <label>Background</label>
+            <select name="background" id="background" onchange="changeBackground(this);">
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div> -->
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+
+    <script>
+        // Number 
+        // String 
+        // Array 
+        // Objects
+
+        // variables can contain letters, numbers, underscores and dollar signs
+        // Begin with a leter
+        // _$
+        // Case sensitive
+
+        // Style Rules - Camel case
+        //             - Partial Case
+        //             - Underscores
+
+        /* var colors = ['red', 'blue', 'green'];
+        alert(colors[2]); */
+
+        var colors = new Array('red', 'green', 'blue');
+        /*
+        colors[3] = 'yellow';
+        colors.push('purple');
+        alert(colors); */
+
+        // Iterating through an entire array
+        //var numbers = [33, 23, 54, 345, 56, 67];
+
+        /* numbers.forEach(function(number) {
+            console.log(number)
+        }); */
+        colors.forEach(function(color) {
+            console.log(color)
+        });
+        
+
+        // === - checks for similarity in data types
+
+        // Object Literal
+
+        /*var person = {
+            firstName: 'Brad',
+            lastName: 'Traversy',
+            age: 34,
+            children: ['Brianna', 'Nicholas'],
+            address: {
+                street: '555 Something st',
+                city: 'Boston',
+                state: 'MA'
+            },
+            fullName: function() {
+                return this.firstName + " " + this.lastName;
+            }
+        } */
+
+        // Object Constructor
+
+        /*var apple = new Object();
+        apple.color = 'red';
+        apple.shape = 'round';
+
+        apple.describe = function() {
+            return 'An apple is the color ' + this.color + ' and is the shape ' + this.shape;
+        } */
+
+        // Constructor Pattern
+        /* function Fruit(name, color, shape) {
+            this.name = name;
+            this.color = color;
+            this.shape = shape;
+
+            this.describe = function() {
+                return 'A ' + this.name + ' is the color ' + this.color + ' and is the shape ' + this.shape;
+            }
+        }
+
+        var apple = new Fruit('apple', 'red', 'round');
+        console.log(apple.describe()); */
+
+        /* var users = [{
+            name: 'Jhon Doe',
+            age: 30
+        }, {
+            name: 'Mark Doe',
+            age: 23
+        }, {
+            name: 'Shelly Doe',
+            age: 24
+        }];
+
+        console.log(users[0].name); */
+
+        /* function doClick() {
+            alert('You Clicked');
+        } */
+
+        /* function changeText() {
+            document.getElementById('heading');
+            heading.innerHTML = 'You Clicked';
+        } */
+
+        /* function showDate() {
+            var time = document.getElementById('time');
+            time.innerHTML = Date();
+        }
+
+        function clearDate() {
+            var time = document.getElementById('time');
+            time.innerHTML = '';
+        } */
+        /* function changeBackground(x) {
+            console.log(x.value);
+            var body = document.getElementById('body');
+            body.style.backgroundColor = x.value;
+        }*/
+        function validateForm() {
+            var firstName = document.forms["myForm"]["firstName"].value;
+
+            if (firstName == null || firstName == "") {
+                alert("First name is required");
+                return false;
+            }
+            if (firstName < 3 || firstName > 20) {
+                alert("First name must be at least 3 chars and max 20 chars");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+        function validator() {
+            if (document.registration.theBox.checked) {
+                alert("Yes its checked");
+            } else {
+                alert("No it's not checked");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="registration">
+        <input type="checkbox" name="theBox" />
+        <input type="button" value="press me" onclick="validator();" />
+    </form>
+    <script type="text/javascript">
+        //comment goes here
+        /*This is another comment*/
+        //document.write(); method is similar to System.out.print(); method in Java
+        // When naming variable, we should use only letters, numbers and underscores.
+        // Name of variables can't start with numbers. In addition, we can't use signs in its name
+        // Use escape characters that caues trouble when printing
+        /* var tuna = "John said, \"boy do I love Bessie\"";
+         document.write(tuna); */
+        // concatenation is similar in syntax to Java
+
+        /*function meatball(x) {
+             alert("I love " + x);
+         }
+
+         meatball("bacon");
+         meatball("cars");
+         meatball("my family");
+         meatball("science");*/
+
+        /*function apples(one, two) {
+            document.write(one + " is better than " + two + "<br />");
+        }
+
+        apples("bucky", "hobart");
+        apples("bucky", "hobart");
+        apples("bucky", "hobart");
+        */
+
+        /*function tooeasy() {
+            return "gametime";
+        }
+          document.write(tooeasy());*/
+        /*function addNum(a, b) {
+            var c = a + b;
+            return c;
+        }
+
+        document.write(addNum(233, 42.24));*/
+        /*function doFirst() {
+                    document.write("first!")
+                    doSec();
+                }
+
+                function doSec() {
+                    document.write("Second");
+                    doFirst();
+                }
+        endless loop of functions
+                doFirst();*/
+        // Keep note of Local and Global variables since they are tricky.
+        // Assignment and Math Operators are similar to java
+        // If and if-else statements are similar to java syntax
+        /*AND and OR syntaxes are similar to Java syntax as the switch statement is.*/
+        // Event handlers are placed mostly outside the <script> tag...
+        // They can be used in different places: not limited to <form> tags.
+        /*Objects is some form of data structure that is simply a composition of properties or features and behaviors or methods
+            syntax - object.property; object.method();
+        */
+
+        /*Whenever we want our program to output something, we can put the script tag in the body tag. However, if there is nothing to output, we can stick it in the head tag.*/
+
+        /*We use a constructor function to create a blue print for creating an object*/
+        // Another way to create objects is to use an object initailizer
+        /*When linking methods with objects, we should state them in the constructor function in a weird way.
+         */
+
+        /*Array syntax is slightly different in java.
+            syntax - var <var-name> = new Array(list of items);
+                   - when accessing an element: <var-name>[index]     
+        other ways to create an array - var <var-name> = new Array(numberofItemsToBeListed); 
+                    - var <var-name> = new Array(); // if we don't know how much items our array wants to hold   
+        *Arrays have properties since they are built-in objects. The most commonly used property is length.  
+        *Arrays can be formed by combining two or more arrays
+        This is achieved through the Array method called concat(); Another method called <Array-name>.join(optional parameter); converts the array to string
+            pop(); method removes the last element in an Array.
+            reverse(); method creates another array starting from the end
+            push(); opposite of pop method since it adds one or more multiple elements.
+            sort(); sorts the array and creates an array of sorted order
+        *Array summation can be faciliated using loops
+        prompt("Prompt question:", ""); is a built in javascript function which takes two parameters     
+        *Associative Array - using other characters to index other than numbers
+        */
+        /*Math Object like Array Objects has some built-in properties and methods*/
+        /*Date Object is used when working with date and time
+        - setInterval function is used to make time based performances*/
+    </script>
+    <p></p>
+</body>
+
+</html>

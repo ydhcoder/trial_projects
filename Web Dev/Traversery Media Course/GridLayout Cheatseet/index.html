@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Grids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em; */
+            grid-gap: 1em;
+        }
+        
+        .wrapper>div {
+            background: #eee;
+            padding: 1em;
+        }
+        
+        .wrapper>div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Flexbox is for one-dimensional layouts as CSS Grids is for two-dimensional layouts.-->
+    <div class="wrapper grid">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus qui quam itaque quisquam nostrum excepturi provident quidem nesciunt, vitae iusto maiores? Est excepturi, odit ullam delectus illum doloribus eius rem porro voluptatibus,
+            quod officiis cupiditate voluptas aperiam reprehenderit neque ducimus sint, quia beatae! Rem commodi illo suscipit dolor excepturi, provident odio doloribus est itaque eaque aliquid possimus quia obcaecati dolores voluptas ad minus recusandae
+            exercitationem quos nemo? Aliquid sunt impedit tenetur laborum soluta enim iste a tempore, laboriosam rem.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque maiores illo doloribus quasi? Nesciunt nisi, similique sint quis quo magnam, iure tenetur, unde accusamus aut veritatis voluptas incidunt eaque?
+        </div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus qui quam itaque quisquam nostrum excepturi provident quidem nesciunt, vitae iusto maiores? Est excepturi, odit ullam delectus illum doloribus eius rem porro voluptatibus,
+            quod officiis cupiditate voluptas aperiam reprehenderit neque ducimus sint, quia beatae! Rem commodi illo suscipit dolor excepturi, provident odio doloribus est itaque eaque aliquid possimus quia obcaecati dolores voluptas ad minus recusandae
+            exercitationem quos nemo? Aliquid sunt impedit tenetur laborum soluta enim iste a tempore, laboriosam rem.
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque maiores illo doloribus quasi? Nesciunt nisi, similique sint quis quo magnam, iure tenetur, unde accusamus aut veritatis voluptas incidunt eaque?
+        </div>
+    </div>
+</body>
+
+</html>

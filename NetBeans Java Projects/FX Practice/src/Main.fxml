@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.gluonhq.charm.glisten.layout.MobileLayoutPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="474.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <AnchorPane prefHeight="509.0" prefWidth="175.0" style="-fx-background-color: #202123;">
+         <children>
+            <MobileLayoutPane prefHeight="51.0" prefWidth="205.0" style="-fx-background-color: #43536D;">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="64.0" text="Compose" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <center>
+                  <Label prefHeight="18.0" prefWidth="64.0" text="Compose" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Segoe UI" size="14.0" />
+                     </font>
+                  </Label>
+               </center>
+               <right>
+                  <ImageView fitHeight="22.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@icons8_Edit_File_20px.png" />
+                     </image>
+                  </ImageView>
+               </right>
+               <left>
+                  <Pane prefHeight="22.0" prefWidth="56.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="17.0" fitWidth="22.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Delete_20px_1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </left>
+            </MobileLayoutPane>
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="25.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Gmail_Login_20px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="84.0" text="Inbox" textFill="#dad6d6">
+               <font>
+                  <Font name="Segoe UI Historic" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="25.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Sent_20px_1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="118.0" text="Sent" textFill="#dad6d6">
+               <font>
+                  <Font name="Segoe UI Historic" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="25.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_SMS_20px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="150.0" text="Drafts" textFill="#dad6d6">
+               <font>
+                  <Font name="Segoe UI Historic" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="25.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Trash_Can_20px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="54.0" layoutY="186.0" text="Trash" textFill="#dad6d6">
+               <font>
+                  <Font name="Segoe UI Historic" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="25.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Settings_20px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="53.0" layoutY="219.0" text="Settings" textFill="#dad6d6">
+               <font>
+                  <Font name="Segoe UI Historic" size="12.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="518.0" prefHeight="509.0" prefWidth="330.0" style="-fx-background-color: #243864;">
+         <children>
+            <MobileLayoutPane prefHeight="51.0" prefWidth="346.0" style="-fx-background-color: #17233D;">
+               <left>
+                  <Pane prefHeight="25.0" prefWidth="153.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Reply_Arrow_20px_1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="17.0" fitWidth="22.0" layoutX="55.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Trash_Can_20px_2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="84.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Copy_20px.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="117.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Send_Comment_20px.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </left>
+               <right>
+                  <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@icons8_Menu_2_20px.png" />
+                     </image>
+                  </ImageView>
+               </right>
+            </MobileLayoutPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="205.0" prefHeight="509.0" prefWidth="314.0" style="-fx-background-color: #17233D;">
+         <children>
+            <MobileLayoutPane prefHeight="51.0" prefWidth="314.0" style="-fx-background-color: #384661;">
+               <center>
+                  <Label prefHeight="18.0" prefWidth="28.0" text="Sort" textAlignment="CENTER" textFill="WHITE" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Segoe UI" size="14.0" />
+                     </font>
+                  </Label>
+               </center>
+               <right>
+                  <ImageView fitHeight="31.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@icons8_Sorting_48px_1.png" />
+                     </image>
+                  </ImageView>
+               </right>
+               <left>
+                  <Pane prefHeight="51.0" prefWidth="69.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <ImageView fitHeight="22.0" fitWidth="32.0" layoutX="24.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icons8_Details_20px.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+               </left>
+            </MobileLayoutPane>
+            <TextField layoutX="14.0" layoutY="59.0" opacity="0.33" prefHeight="25.0" prefWidth="175.0" promptText="Search" style="-fx-background-color: #FFF;" />
+            <ImageView fitHeight="25.0" fitWidth="22.0" focusTraversable="true" layoutX="201.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Search_20px.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="14.0" layoutY="116.0" prefHeight="109.0" prefWidth="249.0" style="-fx-background-color: #243864;" />
+            <Pane layoutX="14.0" layoutY="239.0" prefHeight="109.0" prefWidth="249.0" style="-fx-background-color: #243864;" />
+            <Pane layoutX="14.0" layoutY="362.0" prefHeight="109.0" prefWidth="249.0" style="-fx-background-color: #243864;" />
+            <ImageView fitHeight="25.0" fitWidth="22.0" layoutX="278.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons8_Reply_All_Arrow_20px.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
